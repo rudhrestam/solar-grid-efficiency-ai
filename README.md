@@ -1,5 +1,7 @@
 # Solar Grid Efficiency AI (Demo)
 
+![CI](https://github.com/rudhrestam/solar-grid-efficiency-ai/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A solar plant's nameplate is a promise; the grid meter tells the truth. Between the two sits a chain of losses — dirty panels, a quietly failing string, inverter inefficiency, downtime, curtailment — and in real projects they routinely add up to 10–20% of everything the panels generated. Most of that gap is invisible unless you measure stage by stage. This project simulates a small plant, makes the whole gap explicit, and uses simple ML to find the parts of it you can actually fix.
 
 > This is a personal portfolio project exploring AI for power-system efficiency. It is built on 100% synthetic data with original code, and does not represent work done for any employer.
@@ -71,7 +73,7 @@ Prints the efficiency report and saves a copy to `efficiency_report.txt`.
 
 ## Tech stack
 
-Python · NumPy · pandas · scikit-learn (RandomForest, MAE/R² evaluation)
+Python 3.10+ · NumPy · pandas · scikit-learn (RandomForest, MAE/R² evaluation)
 
 ## Ideas for extension
 
